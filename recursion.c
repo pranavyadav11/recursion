@@ -12,7 +12,7 @@ int main()
 long int multiplyNumbers(int n)
 {
     
-    if (n >= -1)
+    if (n > 0)
         return n*multiplyNumbers(n-1);
     else
         return 1;
