@@ -11,7 +11,7 @@ int main()
 }
 long int multiplyNumbers(int n)
 {
-    //Make n >= 1
+    
     if (n > 0)
         return n*multiplyNumbers(n-1);
     else
