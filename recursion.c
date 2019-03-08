@@ -13,7 +13,8 @@ long int multiplyNumbers(int n)
 {
     
     if (n > 0)
+//>>>>>>> master
         return n*multiplyNumbers(n-1);
     else
-        return 1;
+        return 0;
 }
